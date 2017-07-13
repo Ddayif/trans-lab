@@ -1,1 +1,19 @@
 /* YeyeYeee código aquí */
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #3e3f40;
+}
+
+.logo{
+	width: 30%;
+	margin-top: 30%;
+}
+
+.text-trans{
+	color: #f6a800;
+}
+
+.btn-large{
+	background-color: #f6a800;
+}
