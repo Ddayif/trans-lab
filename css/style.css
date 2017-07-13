@@ -17,3 +17,34 @@ body{
 .btn-large{
 	background-color: #f6a800;
 }
+
+/*Index 2-opciones*/
+
+.body{
+	background-color: #dddee0;
+}
+.contenedor-nav{
+	background-color: #3e3f40;
+}
+.btn-mio{
+	width: 100%;
+	margin-top: 3%;
+	background-color: #f6a800;
+}
+
+.primer-btn{
+	margin-top: 60%;
+}
+
+/*Index 3-perfil*/
+
+.contenedor-img{
+	background-color: #f6a800;
+	height: 335px;
+}
+
+.mi-img{
+	width: 45%;
+    margin-left: 28%;
+    margin-top: 4%;
+}
