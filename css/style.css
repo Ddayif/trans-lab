@@ -65,3 +65,8 @@ body{
     padding-top: 10%;
     font-size: 52px;
 }
+
+/*Index 5-ver saldo*/
+.select-wrapper input.select-dropdown {
+    background-color: rgb(253, 241, 241);
+}

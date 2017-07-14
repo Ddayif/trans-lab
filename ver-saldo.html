@@ -30,28 +30,28 @@
       </ul>
     </div>
   </nav>
-
-<!-- Aca comienza la parte de los botones -->
-  <div class="container">
-    <div class="row">
-      <div class="col s12">
-        <a href="ver-saldo.html" class="waves-effect waves-light btn btn-mio primer-btn">VER SALDO</a>
+  <div class="row">
+    <form class="input-field col s12 center">
+      <input placeholder="Número Tarjeta" id="number_card_saldo" type="text" class="validate">
+      <div class="input-field col s12">
+        <select>
+          <option value="" disabled selected>Choose your option</option>
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+        </select>
+        <label>Número de tarjeta</label>
       </div>
-       <div class="col s12">
-        <a href="calcular.html" class="waves-effect waves-light btn btn-mio">CALCULAR TARIFA</a>
+      <a class="waves-effect waves-light btn btn-mio">VER SALDO</a>
+      <div class="mostrando-saldo">
+        <!-- ACA SE MOSTRARA EL SALDO DEL CLIENTE -->        
       </div>
-      <div class="col s12">
-        <a href="perfil.html" class="waves-effect waves-light btn btn-mio">PERFIL</a>
-      </div>
-      <div class="col s12">
-        <a href="preguntas.html" class="waves-effect waves-light btn btn-mio">PREGUNTAS FRECUENTES</a>
-      </div>
-    </div>  
+    </form> 
   </div>
 
 
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
