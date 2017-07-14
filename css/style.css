@@ -37,14 +37,24 @@ input[type=text]:not(.browser-default) {
 	font-size: 15px;
 }
 
+.input-field.col label {
+	font-size: 20px;
+}
+
+
+
+
+
 /*Index 2-opciones*/
 
 .body{
 	background-color: #dddee0;
 }
+
 .contenedor-nav{
 	background-color: #3e3f40;
 }
+
 .btn-mio{
 	width: 100%;
 	margin-top: 3%;
@@ -57,6 +67,9 @@ input[type=text]:not(.browser-default) {
 .primer-btn{
 	margin-top: 60%;
 }
+
+
+
 
 /*Index 3-perfil*/
 
@@ -83,12 +96,18 @@ input[type=text]:not(.browser-default) {
     padding: 16px;
 }
 
+
+
+
 /*Index 4-preguntas frecuentes*/
 
 .texto-preguntas-frecuentes{
     padding-top: 10%;
     font-size: 52px;
 }
+
+
+
 
 /*Index 5-ver saldo*/
 .select-wrapper input.select-dropdown {
