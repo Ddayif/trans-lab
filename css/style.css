@@ -86,14 +86,16 @@ input[type=text]:not(.browser-default) {
 }
 
 .contenedor-mail{
-	background-color: whitesmoke;
-	height: 50px;
-    padding: 16px;
+    background-color: whitesmoke;
+    height: 50px;
+    padding: 7px;
+    font-size: 25px;
 }
 .parrafos{
 	background-color: whitesmoke;
 	height: 50px;
     padding: 16px;
+    font-size: 25px;
 }
 
 
@@ -173,4 +175,9 @@ a{
     height: 174px;
     margin-left: 28%;
     margin-top: -3%;
+}
+
+input[type=number]:not(.browser-default){
+	font-size: 20px;
+	color: #03A9F4;
 }

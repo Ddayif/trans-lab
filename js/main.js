@@ -8,6 +8,9 @@ $( document ).ready(function(){
 		$("#contenedor-agregar").append("<p class=parrafos>" + agregar + "</p>");
 		$("#number_card").val("");
 	})
+	
+
+	// MAQUETAS, SE UTILIZARON PARA CREAR ELEMENTOS DESDE JQUERY
 
 	/*$("#saldo").click(function(){ // MAQUETA
 		var saldo = $("#number_card_saldo").val();
@@ -24,13 +27,9 @@ $( document ).ready(function(){
 
 
 
-
-
 // cuando se haga click al boton con Id saldo este buscara el valor del input (ID) el en API y mostrara el saldo de la tarjeta
-	$("#saldo").click(function(){
-		
+	$("#saldo").click(function(){	
 		var agregandoSaldo = ($("#number_card_saldo").val());
-
 		$.ajax({
 			url: 'https://bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip=' + agregandoSaldo + '',
 			type: "GET",
@@ -40,12 +39,38 @@ $( document ).ready(function(){
 			console.log(res.saldoTarjeta);
 				$("#contenedor-saldo").append("<p class=parrafo-saldo>SALDO TOTAL</p><h1 class=saldo-tarjeta>" + res.saldoTarjeta + "<h1>");
 				$("#number_card_saldo").val("");
+				llamarsaldo(url)
 		})
 		.fail(function() {
 			console.log("error");
 		});
 	});
 
+
+
+	/*$("#calcular").click(function() { INTENTE QUE EL VALOR DE LA TARJETA QUEDARA IMPRESO CUANDO EL BOTON CLICK SE PRESIONARA, NO SUPE LLAMAR BIEN LA URL
+		var llamarsaldo = function(url_saldoTarjeta){
+			var calcular = $("#number_card_calcular").val();
+			$.ajax({
+				url: url_saldoTarjeta,
+				type: 'GET',
+				dataType: 'json',
+			})
+			.done(function(res) {
+				console.log(res.url_saldoTarjeta)
+				$("#contenedor-calcular-uno").append("<p class=parrafo-calcular>COSTO PASAJE</p><h1 class=calculo-saldo>" + calcular + "</h1>");
+				$("#contenedor-calcular-dos").append("<p class=parrafo-calcular>SALDO FINAL</p><h1 class=calculo-saldo>" + calcular + "</h1>")
+				$("#number_card_calcular").val("");
+			})
+
+			.fail(function() {
+				console.log("error");
+			})
+			.always(function() {
+				console.log("complete");
+			});
+		}
+	});*/
 
 
 // Valida los campos de los inputs del primer index
