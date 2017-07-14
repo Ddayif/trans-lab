@@ -23,6 +23,20 @@ input[type=text]:not(.browser-default) {
     margin-top: 0%;
 }
 
+.olvidaste-contraseña{
+	font-size: 20px;
+}
+
+.cuenta{
+	font-size: 20px;
+    padding-top: 57px;
+    margin: 0;
+}
+
+.input-field .prefix ~ input{
+	font-size: 15px;
+}
+
 /*Index 2-opciones*/
 
 .body{
