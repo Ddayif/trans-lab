@@ -39,7 +39,6 @@ $( document ).ready(function(){
 			console.log(res.saldoTarjeta);
 				$("#contenedor-saldo").append("<p class=parrafo-saldo>SALDO TOTAL</p><h1 class=saldo-tarjeta>" + res.saldoTarjeta + "<h1>");
 				$("#number_card_saldo").val("");
-				llamarsaldo(url)
 		})
 		.fail(function() {
 			console.log("error");
