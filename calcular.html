@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>TransLab</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="css/style.css">
@@ -32,7 +33,7 @@
   </nav>
   <div class="row">
     <form class="input-field col s12 center">
-      <input placeholder="Número Tarjeta" id="number_card_saldo" type="text" class="validate">
+      <input placeholder="Número Tarjeta" id="number_card_calcular" type="number" class="validate">
        <div class="input-field col s12 m6">
         <select class="icons">
           <option value="" disabled selected>Choose your option</option>
@@ -51,7 +52,9 @@
         </select>
         <label>Tarjeta</label>
       </div>
-      <a class="waves-effect waves-light btn btn-calcular">CALCULAR</a>
+      <a id="calcular" class="waves-effect waves-light btn btn-calcular">CALCULAR</a>
+      <div id="contenedor-calcular-uno"></div>
+      <div id="contenedor-calcular-dos"></div>
     </form>  
   </div>
 

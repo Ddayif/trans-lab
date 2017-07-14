@@ -3,6 +3,7 @@ body{
 	margin: 0;
 	padding: 0;
 	background-color: #3e3f40;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .logo{
@@ -62,6 +63,11 @@ input[type=text]:not(.browser-default) {
 	height: 50px;
     padding: 16px;
 }
+.parrafos{
+	background-color: whitesmoke;
+	height: 50px;
+    padding: 16px;
+}
 
 /*Index 4-preguntas frecuentes*/
 
@@ -73,6 +79,22 @@ input[type=text]:not(.browser-default) {
 /*Index 5-ver saldo*/
 .select-wrapper input.select-dropdown {
     background-color: rgb(253, 241, 241);
+}
+
+.parrafo-saldo{
+    background-color: #3e3f40;
+    width: 50%;
+    height: 38px;
+    margin-left: 28%;
+    margin-top: 18%;
+    color: whitesmoke;
+}
+.saldo-tarjeta{   
+    background-color: #f6a800;
+    width: 50%;
+    height: 174px;
+    margin-left: 28%;
+    margin-top: -3%;
 }
 
 /*iNDEX 6-calcular*/
@@ -94,6 +116,28 @@ input[type=text]:not(.browser-default){
 	color: #f6a800;
 }
 
+.side-nav li>a {
+    font-size: 19px;
+    padding: 32px;
+}
+
 a{
 	cursor: pointer;
+}
+
+.parrafo-calcular{
+	background-color: #3e3f40;
+    width: 50%;
+    height: 38px;
+    margin-left: 28%;
+    margin-top: 10%;
+    color: whitesmoke;
+}
+
+.calculo-saldo{
+	background-color: #f6a800;
+    width: 50%;
+    height: 174px;
+    margin-left: 28%;
+    margin-top: -3%;
 }
