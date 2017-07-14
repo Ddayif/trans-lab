@@ -41,9 +41,10 @@ body{
 
 /*Index 3-perfil*/
 
-.contenedor-img{
+.contenedor-de-img-preguntas{
 	background-color: #f6a800;
 	height: 300px;
+	color: whitesmoke;
 }
 
 .mi-img{
@@ -56,4 +57,11 @@ body{
 	background-color: whitesmoke;
 	height: 50px;
     padding: 16px;
+}
+
+/*Index 4-preguntas frecuentes*/
+
+.texto-preguntas-frecuentes{
+    padding-top: 10%;
+    font-size: 52px;
 }
