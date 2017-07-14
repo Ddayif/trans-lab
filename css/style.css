@@ -14,8 +14,12 @@ body{
 	color: #f6a800;
 }
 
-.btn-large{
-	background-color: #f6a800;
+.contenedor-input{
+	background-color: white;
+}
+
+input[type=text]:not(.browser-default) {
+    margin-top: 0%;
 }
 
 /*Index 2-opciones*/
@@ -69,4 +73,27 @@ body{
 /*Index 5-ver saldo*/
 .select-wrapper input.select-dropdown {
     background-color: rgb(253, 241, 241);
+}
+
+/*iNDEX 6-calcular*/
+
+.btn-calcular{
+	width: 50%;
+	margin-top: 3%;
+	background-color: #f6a800;
+	height: 55px;
+	padding: 10px;
+    font-size: 23px;
+}
+
+input[type=text]:not(.browser-default){
+	margin-top: 8%;
+}
+
+.side-nav li>a>i.material-icons{
+	color: #f6a800;
+}
+
+a{
+	cursor: pointer;
 }
